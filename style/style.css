@@ -93,16 +93,7 @@ ul {
     /* background-size: 100%; */
     /* box-shadow: 0 0 0 #000; */
 }
-.header__title{
-    z-index: 666666;
-}
-.banner{
-    position: absolute;
-    width: 100%;
-    height: 450px;
-    object-fit: cover;
-    z-index:-5;
-}
+
 .header__title{
     font-family:var(--secondfont);
     font-size: 108px;
@@ -222,10 +213,22 @@ ul {
     margin-left: 24px;
 }
 
-
-
-
-
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
+    background: #FFFF;
+}
+.item__img{
+    height: max-content;
+}
 
 
 
