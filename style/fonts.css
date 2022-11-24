@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'PlayfairDisplay';
+    src: url('../fonts/PlayfairDisplay-Bold.ttf');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'PlayfairDisplay';
+    src: url('../fonts/PlayfairDisplay-Medium.ttf');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'PlayfairDisplay';
+    src: url('../fonts/PlayfairDisplay-Regular.ttf');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-BoldItalic.ttf');
+    font-weight: 700;
+}
