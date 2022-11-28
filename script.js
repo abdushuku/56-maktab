@@ -5,7 +5,4 @@ hamburger.addEventListener("click", () => {
     headerList.classList.toggle("active");
 })
 
-const phone = document.querySelector('.phone')
-phone.addEventListener("click", ()=>{
-    phone.innerHTML+998998884195
-})
+

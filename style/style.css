@@ -8,11 +8,12 @@
 }
 
 :root {
-    --color: #000;
-    --bg: #F0DB8C;
+    --color: #ECF0F1 ;
+    --bg: #042f5c;
+    --secondcolor:#283747;
     --secondfont: 'Lato';
     --font: 'Roboto';
-    --namecolor:#FFFFFF;
+    --namecolor: #FFFFFF;
 }
 
 body {
@@ -87,7 +88,6 @@ ul {
 .link:hover::after {
     width: 100%;
 }
-
 .fa-phone {
     color: var(--color);
 }
@@ -106,6 +106,7 @@ ul {
     font-size: 108px;
     line-height: 135px;
     text-align: center;
+    color: var(--color);
 }
 
 .header__title {
@@ -148,13 +149,15 @@ ul {
     font-family: var(--secondfont);
     font-size: 39px;
     line-height: 114px;
+    color: var(--color);
 }
 
 .text2 {
     font-family: var(--secondfont);
     font-size: 39px;
-    padding-TOP: 9px;
+    padding-top: 9px;
     line-height: 46px;
+    color: var(--color);
 }
 
 .text2:nth-of-type(2) {
@@ -187,7 +190,7 @@ ul {
 
 .item__img {
     object-fit: cover;
-    width: 250px;
+    width: 186px;
     height: 340px;
 }
 
@@ -275,7 +278,6 @@ ul {
     font-size: 17px;
     line-height: 22px;
     color: #042f5c;
-    
 }
 
 .authors::after {
@@ -296,6 +298,7 @@ ul {
     align-items: center;
     justify-content: center;
     column-gap: 80px;
+    padding-top: 60px;
 }
 
 .authors__img {
@@ -315,15 +318,15 @@ ul {
     font-size: 30px;
     line-height: 35px;
     font-weight: 500;
-    color: var(--color);
+    color: var(--secondcolor);
 }
-.authors__work{
+
+.authors__work {
     font-size: 23px;
     line-height: 29px;
 }
-
-
-
-
-
+.back{
+    color: var(--secondcolor);
+}
+*
 /* main--end */
